@@ -1,0 +1,5 @@
+x=input("enter the character")
+if 'A'<x<'Z':
+    print("uppercase")
+else:
+        print("lowercase")
