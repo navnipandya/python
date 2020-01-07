@@ -1,0 +1,18 @@
+
+#swapping with third variable
+
+x,y=int(input("enter the no.")),int(input("enter the no."))
+z=x
+x=y
+y=z
+print("x=",x)
+print("y=",y)
+
+
+#swapping without third variable
+
+x=5
+y=10
+x,y=y,x
+print("x=",x)
+print("y=",y)
