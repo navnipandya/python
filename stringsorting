@@ -1,0 +1,7 @@
+a_string = "navnipandya"
+  
+print("The original string : " + str(a_string)) 
+res = ''.join(sorted(a_string)) 
+      
+print("String after sorting : " + str(res)) 
+
